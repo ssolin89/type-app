@@ -1,0 +1,26 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.mainWrap {
+  @include flex(flex);
+  flex-direction: column;
+  row-gap: 9.4rem;
+}
+
+.normalSwiper {
+  width: 100%;
+  
+  .swiper-slide {
+    height: 20rem;
+    
+    .itemInner {
+      height: 20rem;
+      @include flex(flex, center, center);
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+.fadeSwiper {
+  width: 100%;
+}

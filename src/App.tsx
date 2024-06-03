@@ -20,15 +20,29 @@ function App () {
       {/* 첫 번째 Swiper */}
       <Swiper
         className="normalSwiper"
-        spaceBetween={50}
-        slidesPerView={3}
+        spaceBetween={16}
+        slidesPerView={4}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper: SwiperType) => console.log(swiper)}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide1</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide2</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide3</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide4</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide5</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="itemInner">slide5</div>
+        </SwiperSlide>
       </Swiper>
       
       {/* 두 번째 Swiper */}

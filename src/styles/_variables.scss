@@ -1,0 +1,48 @@
+// Font-Family
+$ff_fontUrbanist: 'Urbanist', sans-serif;
+$ff_KoPubWorldDotum: "KoPubWorldDotum";
+$ff_Roboto: 'Roboto', sans-serif;
+
+// Primary color
+$primary_color_1: #5E86F4; //bitya blue
+$primary_color_2: #F23645; //bitya red
+$primary_color_3: #45495A; //bitya gray
+
+// Secondary colors
+$secondary_color_1: #F4CB5D; //bitya yellow
+$secondary_color_2: #BBA14F; //bitya gold
+
+// Accent color
+// 매수
+$accent_buy: #F20013;
+$accent_buy_75: rgba($accent_buy, 0.75);
+$accent_buy_50: rgba($accent_buy, 0.5);
+$accent_buy_25: rgba($accent_buy, 0.25);
+$accent_buy_5: rgba($accent_buy, 0.05);
+
+// 매도
+$accent_sell: #1554F6;
+$accent_sell_75: rgba($accent_sell, 0.75);
+$accent_sell_50: rgba($accent_sell, 0.5);
+$accent_sell_25: rgba($accent_sell, 0.25);
+$accent_sell_5: rgba($accent_sell, 0.05);
+
+// 중립
+$accent_neutral: #45495A;
+
+// Interaction color
+$interaction_success_color: #5E86F4; //Sucess
+$interaction_error_color: #F23645; //Error
+$interaction_info_color: #9497A0; //Info
+
+// Neutral color
+$neutral_color_1: #11131A;
+$neutral_color_2: #373D3F;
+$neutral_color_3: #45495A;
+$neutral_color_4: #9497A0;
+$neutral_color_5: #AFB1B8;
+$neutral_color_6: #CFD0D2;
+$neutral_color_7: #E4E5E7;
+$neutral_color_8: #F4F4F4;
+$neutral_color_9: #F9F9F9;
+$neutral_color_10: #FFFFFF;

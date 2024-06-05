@@ -10,7 +10,7 @@ import 'swiper/scss/effect-fade';
 
 import './SwiperComponentThumbs.scss'
 
-import {FreeMode, Navigation, Thumbs} from 'swiper/modules';
+import {FreeMode, Navigation, Thumbs, EffectFade} from 'swiper/modules';
 
 
 
@@ -27,7 +27,7 @@ const SwiperComponentThumbs: React.FC = () => {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[ FreeMode, Navigation, Thumbs ]}
-        className="mySwiper"
+        className="mySwiper mySwiperThumb"
       >
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>
@@ -56,10 +56,11 @@ const SwiperComponentThumbs: React.FC = () => {
       </Swiper>
       <Swiper
         spaceBetween={10}
+        effect={'fade'}
         navigation={true}
         thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
-        modules={[ FreeMode, Navigation, Thumbs ]}
-        className="mySwiper2"
+        modules={[ FreeMode, Navigation, Thumbs, EffectFade ]}
+        className="mySwiperContent"
       >
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>

@@ -1,0 +1,52 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.normalSwiper {
+  width: 100%;
+  
+  .swiper-slide {
+    height: 20rem;
+    
+    .itemInner {
+      width: 100%;
+      height: 20rem;
+      @include flex(flex, center, center);
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+.sec_profile {
+  height: 100px;
+  width: 100%;
+  
+  .swiper-slide {
+    background-color: #1554F6;
+  }
+}
+
+.sec_content {
+  height: 300px;
+  width: 100%;
+  
+  .swiper-slide {
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.1s;
+    color: #000;
+    
+    &.swiper-slide-active {
+      opacity: 1 !important;
+    }
+  }
+}
+
+.swiper {
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

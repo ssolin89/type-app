@@ -8,7 +8,7 @@ import 'swiper/scss/pagination';
 import 'swiper/scss/autoplay';
 import 'swiper/scss/effect-fade';
 
-import './SwiperComponent.scss'
+import './SwiperComponentNormal.scss'
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import SwiperComponentNomal from "./slider/SwiperComponentNormal";
-import SwiperComponentDual from "./slider/SwiperComponentDual";
+import SwiperComponentThumbs from "./slider/SwiperComponentThumb";
 
 
 import './App.scss';
@@ -8,15 +8,15 @@ import './App.scss';
 
 
 
-function App () {
+const App: React.FC = () => {
   
   return (
     <div className="mainWrap">
       {/* 첫 번째 Swiper */}
       <SwiperComponentNomal/>
       
-      {/* 두 번째 Swiper */}
-      <SwiperComponentDual/>
+      {/* Swiper */}
+      <SwiperComponentThumbs/>
     </div>
   );
 }

@@ -12,12 +12,9 @@
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #fff;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-size: cover;
   background-position: center;
   
@@ -48,4 +45,28 @@
 .mySwiperContent {
   height: 80%;
   width: 100%;
+  background-color: #ccc;
+  
+  .swiper-slide {
+    background-color: #ccc;
+  }
+}
+
+.contentInner {
+  width: 100%;
+  @include flex(flex);
+  flex-direction: column;
+  row-gap: 4rem;
+  
+  .adminTop {
+    width: 100%;
+    height: 40%;
+    background-color: #5E86F4;
+  }
+  
+  .adminBottom {
+    width: 100%;
+    height: 60%;
+    background-color: #BBA14F;
+  }
 }

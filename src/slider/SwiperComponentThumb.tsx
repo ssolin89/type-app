@@ -25,6 +25,7 @@ const SwiperComponentThumbs: React.FC = () => {
         spaceBetween={10}
         slidesPerView={4}
         freeMode={true}
+        navigation={true}
         watchSlidesProgress={true}
         modules={[ FreeMode, Navigation, Thumbs ]}
         className="mySwiper mySwiperThumb"
@@ -57,16 +58,23 @@ const SwiperComponentThumbs: React.FC = () => {
       <Swiper
         spaceBetween={10}
         effect={'fade'}
-        navigation={true}
         thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
         modules={[ FreeMode, Navigation, Thumbs, EffectFade ]}
         className="mySwiperContent"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리</h3>
+            <div className="adminTop">admin top area1</div>
+            <div className="adminBottom">admin bottom area1</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="nature-2"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리</h3>
+            <div className="adminTop">admin top area2</div>
+            <div className="adminBottom">admin bottom area2</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="nature-3"/>

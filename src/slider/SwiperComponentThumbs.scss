@@ -31,12 +31,16 @@
   height: 5rem;
   box-sizing: border-box;
   
+  .swiper-wrapper {
+  }
+  
   .swiper-slide {
     width: 25%;
     height: 100%;
     background-color: #ccc;
     border: 0.2rem solid #ccc;
     border-bottom: none;
+    // border-bottom: 0.2rem solid #1554F6;
     border-radius: 1rem 1rem 0 0;
     box-sizing: border-box;
     position: relative;

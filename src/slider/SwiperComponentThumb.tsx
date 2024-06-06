@@ -7,6 +7,7 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import 'swiper/scss/autoplay';
 import 'swiper/scss/effect-fade';
+import {IoCloseCircleOutline} from "react-icons/io5";
 
 import './SwiperComponentThumbs.scss'
 
@@ -31,28 +32,58 @@ const SwiperComponentThumbs: React.FC = () => {
         className="mySwiper mySwiperThumb"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리1</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="nature-2"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리2</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="nature-3"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리3</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="nature-4"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리4</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="nature-5"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리5</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="nature-6"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리6</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="nature-7"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리7</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="nature-8"/>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리8</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="tabTitleInner">
+            <h3>연동마켓 카테고리 관리9</h3>
+            <button type="button"><IoCloseCircleOutline/></button>
+          </div>
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -64,36 +95,68 @@ const SwiperComponentThumbs: React.FC = () => {
       >
         <SwiperSlide>
           <div className="contentInner">
-            <h3>연동마켓 카테고리 관리</h3>
+            <h3>연동마켓 카테고리 관리1</h3>
             <div className="adminTop">admin top area1</div>
             <div className="adminBottom">admin bottom area1</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="contentInner">
-            <h3>연동마켓 카테고리 관리</h3>
+            <h3>연동마켓 카테고리 관리2</h3>
             <div className="adminTop">admin top area2</div>
             <div className="adminBottom">admin bottom area2</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="nature-3"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리3</h3>
+            <div className="adminTop">admin top area3</div>
+            <div className="adminBottom">admin bottom area3</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="nature-4"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리4</h3>
+            <div className="adminTop">admin top area4</div>
+            <div className="adminBottom">admin bottom area4</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="nature-5"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리5</h3>
+            <div className="adminTop">admin top area5</div>
+            <div className="adminBottom">admin bottom area5</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="nature-6"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리6</h3>
+            <div className="adminTop">admin top area6</div>
+            <div className="adminBottom">admin bottom area6</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="nature-7"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리7</h3>
+            <div className="adminTop">admin top area7</div>
+            <div className="adminBottom">admin bottom area7</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="nature-8"/>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리8</h3>
+            <div className="adminTop">admin top area8</div>
+            <div className="adminBottom">admin bottom area8</div>
+          </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="contentInner">
+            <h3>연동마켓 카테고리 관리9</h3>
+            <div className="adminTop">admin top area9</div>
+            <div className="adminBottom">admin bottom area9</div>
+          </div>
+        </SwiperSlide>
+      
       </Swiper>
     
     </div>

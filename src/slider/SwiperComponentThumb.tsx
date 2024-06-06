@@ -23,8 +23,8 @@ const SwiperComponentThumbs: React.FC = () => {
     <div className="swiperThumbsArea">
       <Swiper
         onSwiper={setThumbsSwiper}
-        spaceBetween={10}
-        slidesPerView={4}
+        spaceBetween={4}
+        slidesPerView={5.5}
         freeMode={true}
         navigation={true}
         watchSlidesProgress={true}
@@ -91,6 +91,7 @@ const SwiperComponentThumbs: React.FC = () => {
         effect={'fade'}
         thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
         modules={[ FreeMode, Navigation, Thumbs, EffectFade ]}
+        allowTouchMove={false}
         className="mySwiperContent"
       >
         <SwiperSlide>

@@ -134,6 +134,8 @@
   border-radius: 50%;
   @include flex(flex, center, center);
   background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .swiper-button-prev {
@@ -152,7 +154,8 @@
   }
 }
 
-.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
   opacity: unset;
   pointer-events: unset;
 }

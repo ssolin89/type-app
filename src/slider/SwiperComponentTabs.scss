@@ -1,33 +1,13 @@
 @import "src/styles/variables";
 @import "src/styles/mixins";
 
-.swiperThumbsArea {
+.swiperTabsArea {
   width: 100%;
   height: 600px;
   position: relative;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  background-size: cover;
-  background-position: center;
-  
-  > img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-.mySwiperThumb {
+.mySwiperTab {
   height: 5rem;
   box-sizing: border-box;
   
@@ -50,7 +30,7 @@
     }
   }
   
-  .swiper-slide-thumb-active {
+  .swiper-slide-active {
     background-color: #fff;
     border: 0.2rem solid #1554F6;
     border-bottom: none;
@@ -68,20 +48,6 @@
   
   overflow: visible;
   border-bottom: 0.2rem solid #1554F6;
-}
-
-.mySwiperContent {
-  height: 80%;
-  width: 100%;
-  background-color: #e8e8e8;
-  
-  .swiper-slide {
-    background-color: #e8e8e8;
-  }
-  
-  .swiper-slide-active {
-    // border-top: 0.2rem solid #1554F6;
-  }
 }
 
 .tabTitleInner {
@@ -109,25 +75,6 @@
       width: 100%;
       height: 100%;
     }
-  }
-}
-
-.contentInner {
-  width: 100%;
-  @include flex(flex);
-  flex-direction: column;
-  row-gap: 4rem;
-  
-  .adminTop {
-    width: 100%;
-    height: 40%;
-    background-color: #5E86F4;
-  }
-  
-  .adminBottom {
-    width: 100%;
-    height: 60%;
-    background-color: #BBA14F;
   }
 }
 

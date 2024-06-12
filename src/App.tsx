@@ -1,7 +1,8 @@
 import React from 'react';
 import SwiperComponentNomal from "./slider/SwiperComponentNormal";
 import SwiperComponentThumbs from "./slider/SwiperComponentThumb";
-import SwiperComponentTabs from "./slider/SwiperComponentTabs";
+
+import ScrollableTabs from "./tabs/SlideTabs";
 
 
 import './App.scss';
@@ -16,9 +17,9 @@ const App: React.FC = () => {
       {/* 첫 번째 Swiper */}
       <SwiperComponentNomal/>
       {/* Swiper Thumbs */}
-      <SwiperComponentThumbs/>
-      {/* Swiper Tabs */}
-      <SwiperComponentTabs/>
+      {/*<SwiperComponentThumbs/>*/}
+      
+      <ScrollableTabs/>
     </div>
   );
 }

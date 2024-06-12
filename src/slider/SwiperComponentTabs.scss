@@ -25,9 +25,9 @@
     position: relative;
     transition: transform 0.5s ease;
     
-    &:hover {
-      transform: translateY(-10px);
-    }
+    // &:hover {
+    //   transform: translateY(-10px);
+    // }
   }
   
   .swiper-slide-active {
@@ -76,6 +76,11 @@
       height: 100%;
     }
   }
+}
+
+.tabTitleInner.active {
+  background-color: #e0e0e0; /* 원하는 활성화 상태 배경색 */
+  font-weight: bold;
 }
 
 .swiper-button-prev,

@@ -7,7 +7,7 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import {IoCloseCircleOutline} from "react-icons/io5";
 
-import './SwiperComponentTabs.scss'
+import './SwiperComponentTabs.scss';
 
 import {FreeMode, Navigation} from 'swiper/modules';
 
@@ -20,17 +20,17 @@ const SwiperComponentTabs: React.FC = () => {
   
   const handleTabClick = (index: number) => {
     if (tabsSwiper) {
-      tabsSwiper.slideTo(index);
+      tabsSwiper.slideTo(index, 0); // 즉시 이동
     }
     setActiveTab(index);
   };
   
   return (
-    <div className="swiperTabsArea">
+    <div className="swiperThumbsArea">
       <Swiper
-        onSwiper={setTabsSwiper}
-        spaceBetween={4}
-        slidesPerView={5.5}
+        onSwiper={(swiper: SwiperType) => setTabsSwiper(swiper)}
+        spaceBetween={10}
+        slidesPerView={4.5}
         freeMode={true}
         navigation={true}
         watchSlidesProgress={true}

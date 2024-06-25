@@ -16,28 +16,29 @@ export default function ScrollableTabsButtonForce () {
   };
   
   return (
-    <Box sx={{width: '100%', bgcolor: 'background.paper'}}>
+    <Box className="tabBox"
+         sx={{
+           flexGrow: 1,
+           width: '100%',
+         }}
+    >
       <Tabs
         value={value}
         onChange={handleChange}
         variant="scrollable"
-        scrollButtons
-        allowScrollButtonsMobile
-        aria-label="scrollable force tabs example"
+        scrollButtons={false}
+        centered
       >
-        <Tab label="Item 1"/>
-        <Tab label="Item 2"/>
-        <Tab label="Item 3"/>
-        <Tab label="Item 4"/>
-        <Tab label="Item 5"/>
+        <Tab label="시장동향"/>
+        <Tab label="주식"/>
+        <Tab label="외환"/>
+        <Tab label="암호화폐"/>
+        <Tab label="ETF"/>
         <Tab label="Item 6"/>
         <Tab label="Item 7"/>
         <Tab label="Item 8"/>
         <Tab label="Item 9"/>
         <Tab label="Item 10"/>
-        <Tab label="Item 11"/>
-        <Tab label="Item 12"/>
-        <Tab label="Item 13"/>
       </Tabs>
     </Box>
   );

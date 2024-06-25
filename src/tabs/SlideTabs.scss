@@ -1,4 +1,11 @@
-
-.MuiTabs-scrollButtons.Mui-disabled {
-  opacity: 0.3;
+.tabBox {
+  border-bottom: 1px solid #ccc;
+  
+  button {
+    font-size: 18px;
+  }
 }
+
+// .MuiTabs-scrollButtons.Mui-disabled {
+//   opacity: 0.3;
+// }

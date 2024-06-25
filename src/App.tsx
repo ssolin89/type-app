@@ -15,7 +15,7 @@ const App: React.FC = () => {
   return (
     <div className="mainWrap">
       {/* 첫 번째 Swiper */}
-      <SwiperComponentNomal/>
+      {/*<SwiperComponentNomal/>*/}
       {/* Swiper Thumbs */}
       {/*<SwiperComponentThumbs/>*/}
       

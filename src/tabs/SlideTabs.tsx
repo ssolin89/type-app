@@ -34,9 +34,9 @@ export default function ScrollableTabsButtonForce () {
         <Tab label="외환"/>
         <Tab label="암호화폐"/>
         <Tab label="ETF"/>
-        <Tab label="Item 6"/>
-        <Tab label="Item 7"/>
-        <Tab label="Item 8"/>
+        <Tab label="마켓"/>
+        <Tab label="시장동향"/>
+        <Tab label=""/>
         <Tab label="Item 9"/>
         <Tab label="Item 10"/>
       </Tabs>

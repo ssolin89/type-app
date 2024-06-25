@@ -19,7 +19,7 @@ export default function ScrollableTabsButtonForce () {
     <Box className="tabBox"
          sx={{
            // flexGrow: 1,
-           // width: '100%',
+           width: '100%',
          }}
     >
       <Tabs
@@ -30,7 +30,7 @@ export default function ScrollableTabsButtonForce () {
         centered
         className="tabBoxInner"
       >
-        <Tab label="시장동향"/>
+        <Tab label="시장동향"></Tab>
         <Tab label="주식"/>
         <Tab label="외환"/>
         <Tab label="암호화폐"/>

@@ -30,16 +30,16 @@ export default function ScrollableTabsButtonForce () {
         centered
         className="tabBoxInner"
       >
-        <Tab label="시장동향"></Tab>
-        <Tab label="주식"/>
-        <Tab label="외환"/>
-        <Tab label="암호화폐"/>
-        <Tab label="ETF"/>
-        <Tab label="마켓"/>
-        <Tab label="시장동향"/>
-        <Tab label="시장동향"/>
-        <Tab label="ETF"/>
-        <Tab label="주식"/>
+        <Tab label={<h5>시장동향</h5>}/>
+        <Tab label={<h5>주식</h5>}/>
+        <Tab label={<h5>외환</h5>}/>
+        <Tab label={<h5>암호화폐</h5>}/>
+        <Tab label={<h5>ETF</h5>}/>
+        <Tab label={<h5>마켓</h5>}/>
+        <Tab label={<h5>시장동향</h5>}/>
+        <Tab label={<h5>시장동향</h5>}/>
+        <Tab label={<h5>ETF</h5>}/>
+        <Tab label={<h5>주식</h5>}/>
       </Tabs>
     </Box>
   );

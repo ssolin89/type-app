@@ -1,8 +1,15 @@
 .tabBox {
   border-bottom: 1px solid #ccc;
   
+  .MuiTabs-flexContainer {
+    gap: 16px;
+  }
+  
   button {
+    min-width: auto;
     font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

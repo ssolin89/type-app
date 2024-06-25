@@ -11,15 +11,15 @@ import './SlideTabs.scss'
 export default function ScrollableTabsButtonForce () {
   const [ value, setValue ] = React.useState(0);
   
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
   
   return (
     <Box className="tabBox"
          sx={{
-           flexGrow: 1,
-           width: '100%',
+           // flexGrow: 1,
+           // width: '100%',
          }}
     >
       <Tabs
@@ -28,6 +28,7 @@ export default function ScrollableTabsButtonForce () {
         variant="scrollable"
         scrollButtons={false}
         centered
+        className="tabBoxInner"
       >
         <Tab label="시장동향"/>
         <Tab label="주식"/>
@@ -36,9 +37,9 @@ export default function ScrollableTabsButtonForce () {
         <Tab label="ETF"/>
         <Tab label="마켓"/>
         <Tab label="시장동향"/>
-        <Tab label=""/>
-        <Tab label="Item 9"/>
-        <Tab label="Item 10"/>
+        <Tab label="시장동향"/>
+        <Tab label="ETF"/>
+        <Tab label="주식"/>
       </Tabs>
     </Box>
   );
